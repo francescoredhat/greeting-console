@@ -21,7 +21,7 @@ pipeline {
         stage('Release') {
             steps {
                 sh '''
-oc project RHT_OCP4_DEV_USER-greetings
+oc project cmfrmz-greetings
 oc start-build greeting-console --follow --wait
 '''
             }
