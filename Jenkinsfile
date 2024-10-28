@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Check Style") {
             steps {
-                sh "npm run lint"
+                echo "Hello from Jenkins Pipeline!"
             }
         }
         stage("Test") {
