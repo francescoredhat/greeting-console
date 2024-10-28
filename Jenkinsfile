@@ -10,7 +10,7 @@ pipeline {
         }
         stage("Check Style") {
             steps {
-                echo "Hello from Jenkins Pipeline!"
+                echo "Hello 2 from Jenkins Pipeline!"
             }
         }
         stage("Test") {
